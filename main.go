@@ -30,6 +30,7 @@ var courses []Course
 
 // middleware, helper - file
 func (c *Course) IsEmpty() bool {
+	//hello
 	// return c.CourseId == "" && c.CourseName == ""
 	return c.CourseName == ""
 }
